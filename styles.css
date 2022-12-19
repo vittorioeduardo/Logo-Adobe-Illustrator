@@ -1,0 +1,39 @@
+html{
+  background-color:#1F110A;
+}
+.ai{
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  height: 20%;
+  width: 20%;
+  transform: translate(-50%, -50%);
+}
+#_x33_rd_triangle{
+  animation: x33 1s ease infinite;
+}
+@keyframes x33{
+  from { transform: translateY(5%)}
+  to { transform: translateY(0%)}
+  0% {opacity: 0;}
+  100% {opacity:1;}
+}
+#_x32_nd_triangle{
+  animation:x32 1s ease infinite;
+}
+@keyframes x32{
+  from { transform: translateY(10%)}
+  to { transform: translateY(0%)}
+  0% {opacity: 0;}
+  100% {opacity:1;}
+}
+#_x31_st_triangle{
+  animation:x31 1s ease infinite;
+}
+@keyframes x31{
+  from { transform: translateY(10%)}
+  to { transform: translateY(0%)}
+  25% {opacity: 0;}
+  100% {opacity:1;}
+}
